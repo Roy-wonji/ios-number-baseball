@@ -16,8 +16,8 @@
 ### Naming
 1. `generateRandomNumbers()함수` : 임의의 수 생성
 2. `calculateStrikeBallWith() 함수` : 컴퓨터와 사용자 수를 비교하여 스트라이크, 볼을 반환한다.
-3. `startGame()함수 ` : `generateRandomNumbers()`와 `compareNumbers()`를 사용하여 게임을 진행하고 진행상황 및 승리자 메세지를 출력하는 함수 </br>
-4. `strikeCount` , `ballCount`: 스트라이크 와 볼 수
+3. `startGame()함수  : generateRandomNumbers()와 compareNumbers()`를 사용하여 게임을 진행하고 진행상황 및 승리자 메세지를 출력하는 함수 </br>
+4. `strikeCount , ballCount`: 스트라이크 와 볼 수
 
 ### Step1
 1. `generateRandomNumbers: func`  = 겹치지 않는 무작위의 3개의 수를 배열로 생성하여 반환.
