@@ -1,8 +1,8 @@
 ## ⛺️iOS 커리어 스타터 캠프
 
 ### 숫자야구 프로젝트 저장소
-> IOS 커리어 스타터 캠프 </br>
-  Created by: Roy & 쿼카
+🗓 기간 : 2022.02.08 ~ 2022.02.10(2d)
+🗓 팀원 : [로이](https://github.com/Roy-wonji), [쿼카](https://github.com/Quokkaaa)
 
 ### 게임 규칙
 
@@ -11,15 +11,28 @@
 - 수의 범위는 1~9이며 중복된 수는 없습니다.
 
 ### Flow Chart
-<img src = "https://user-images.githubusercontent.com/75601594/153162026-7a6ca0db-d20f-4309-8651-c0210d8033ad.png" width="300px">
+<img src = "https://user-images.githubusercontent.com/75601594/153446357-c4c8d3b9-570b-433f-b10b-a9ef7959ace9.jpg" width="300px">
 
-###  Naming
+### Naming
 1. generateRandomNumbers()함수 : 임의의 수 생성
-2. compareNumbers()함수 : 컴퓨터와 사용자 수를 비교하여 스트라이크, 볼을 반환한다.
+2. calculateStrikeBallWith() 함수 : 컴퓨터와 사용자 수를 비교하여 스트라이크, 볼을 반환한다.
 3. startGame()함수 : generateRandomNumbers()와 compareNumbers()를 사용하여 게임을 진행하고 진행상황 및 승리자 메세지를 출력하는 함수
-4.strike , ball: 스트라이크 와 볼 수
+4.strikeCount , ballCount: 스트라이크 와 볼 수
 
 ### Step1
 1. generateRandomNumbers: func  = 겹치지 않는 무작위의 3개의 수를 배열로 생성하여 반환.
-2. compareNumbers: func = 컴퓨터가 생성한 수와 유저의 수를 비교하여 스트라이크와 볼을 반환
-3. startGame:func = 게임을 시작하는 함수
+2. calculateStrikeBallWith: func = 컴퓨터가 생성한 수와 유저의 수를 비교하여 스트라이크와 볼을 반환
+3. playGame :func = 게임을 시작하는 함수
+
+### 로직구현  
+- generateRandomNumbers()함수 : 임의의 수 생성한다.
+- calculateStrikeBallWith() 함수 :  컴퓨터와 사용자 수를 비교하여 스트라이크, 볼을 반환한다.
+- playGame()함수 : generateRandomNumbers()와 calculateStrikeBallWith()를 사용하여 게임을 진행하고 진행상황 및 승리자 메세지를 출력한다.
+
+### 고민했던점
+- 스트라이크는 인덱스와 숫자가 같은경우 계산하였는데 볼을 계산할때는 공식문서에 있는 교집합에 대한 'intersection'메서드를 참고하였습니다. 그런데 교집합시 볼과 스트라이크 수가 겹치는 상황이 발생하여 (볼 - 스트라이크) = 찐볼 을 계산하였습니다.
+- 페어프로그래밍을 할때, 상대방의 코딩 스타일을 맞춰 서로 잘 어우러지게 함과 가독성을 고민을 많이 했습니다.
+- 하드 코딩에 지향하는 코드를 구현 할려고 노력을 많이 했습니다
+
+
+
