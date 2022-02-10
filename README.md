@@ -27,7 +27,7 @@
 ### 로직구현  
 - `generateRandomNumbers() 함수` : 임의의 수 생성한다.
 - `calculateStrikeBallWith() 함수` :  컴퓨터와 사용자 수를 비교하여 스트라이크, 볼을 반환한다.
-- `playGame() 함수 : generateRandomNumbers()`와 `calculateStrikeBallWith()`를 사용하여 게임을 진행하고 진행상황 및 승리자 메세지를 출력한다.
+- `playGame() 함수 : generateRandomNumbers()와 calculateStrikeBallWith()`를 사용하여 게임을 진행하고 진행상황 및 승리자 메세지를 출력한다.
 
 ### 고민했던점
 - 스트라이크는 인덱스와 숫자가 같은경우 계산하였는데 볼을 계산할때는 공식문서에 있는 교집합에 대한 'intersection'메서드를 참고하였습니다. 그런데 교집합시 볼과 스트라이크 수가 겹치는 상황이 발생하여 (볼 - 스트라이크) = 찐볼 을 계산하였습니다.
