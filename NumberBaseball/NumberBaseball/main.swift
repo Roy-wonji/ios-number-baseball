@@ -25,7 +25,7 @@ func playGame() {
         remainingChangeCount -= chanceCount
         printPlayingGameMessage()
         resetStrikeBallCount()
-       if  strikeCounting >= 3 endGameCount {break}
+       if  strikeCounting >= 3  {break}
         
     }
     judgeGameResult()

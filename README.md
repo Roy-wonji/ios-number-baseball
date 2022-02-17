@@ -2,7 +2,9 @@
 
 ### 숫자야구 프로젝트 저장소
 🗓 기간 : 2022.02.08 ~ 2022.02.11(3d)</br>
-🗓 팀원 : [로이](https://github.com/Roy-wonji), [쿼카](https://github.com/Quokkaaa)
+🗓 팀원 : [로이](https://github.com/Roy-wonji), [쿼카](https://github.com/Quokkaaa)</br>
+🗓 리뷰어 :  [제리](https://github.com/llghdud921)</br>
+🗓 피드백 : [코든](https://github.com/ictechgy), [엘렌](https://github.com/jcrescent61)
 
 ### 게임 규칙
 
